@@ -1,0 +1,35 @@
+h1, h2, h3, span {
+    margin:0;
+}
+h1 {
+    /*relative to the browser default*/
+    font-size: 16rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size1: 1.4rem
+}
+span {
+    font-size: 6rem;
+}
+
+.container {
+    /*great for mobile movement*/
+    max-width: 550px;
+    height: 100vh;
+    border: 1px solid black;
+    /*auto find the center*/
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    text-align: center;
+    padding: 25px 5px;
+}
+.degrees {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-left: 2rem;
+}
