@@ -2,3 +2,8 @@ body {
     text-align: center;
     background: lightblue;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
